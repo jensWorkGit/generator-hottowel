@@ -1,8 +1,5 @@
 # generator-typeangular
 
-[![NPM version](https://img.shields.io/npm/v/generator-typeangular.svg?style=flat)](https://www.npmjs.com/package/generator-typeangular)
-[![Build Status](https://secure.travis-ci.org/johnpapa/generator-typeangular.png?branch=master)](https://travis-ci.org/johnpapa/generator-typeangular)
-
 Create an Angular application using the TypeAngular style (via a [Yeoman](http://yeoman.io) generator)
 
 >*Opinionated Angular style guide for teams by [@john_papa](//twitter.com/john_papa)*
