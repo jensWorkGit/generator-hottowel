@@ -8,7 +8,7 @@ var _ = require('lodash');
 var str = require('underscore.string');
 _.mixin(str);
 
-var HotTowelGenerator = yeoman.Base.extend({
+var TypeAngularGenerator = yeoman.Base.extend({
 
   constructor: function() {
     // arguments and options should be
@@ -21,7 +21,7 @@ var HotTowelGenerator = yeoman.Base.extend({
 
   welcome: function() {
     this.log(yosay(
-      'Welcome to the HotTowel AngularJS generator!'
+      'Welcome to the TypeAngular generator!'
     ));
   },
 
@@ -42,13 +42,13 @@ var HotTowelGenerator = yeoman.Base.extend({
 
     this.prompt(prompts, function(answers) {
       this.appName = answers.appName;
-      this.appName = this.appName || 'hottowel'; //path.basename(process.cwd());
+      this.appName = this.appName || 'typeangular'; //path.basename(process.cwd());
       done();
     }.bind(this));
   },
 
   displayName: function() {
-    this.log('Creating ' + this.appName + ' app based on HotTowel.');
+    this.log('Creating ' + this.appName + ' app based on TypeAngular.');
   },
 
   packageFiles: function() {
@@ -111,4 +111,4 @@ var HotTowelGenerator = yeoman.Base.extend({
   }
 });
 
-module.exports = HotTowelGenerator;
+module.exports = TypeAngularGenerator;

@@ -520,7 +520,7 @@ function startBrowserSync(isDev, specRunner) {
     injectChanges: true,
     logFileChanges: true,
     logLevel: 'info',
-    logPrefix: 'hottowel',
+    logPrefix: 'typeangular',
     notify: true,
     reloadDelay: 0 //1000
   };

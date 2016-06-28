@@ -7,9 +7,9 @@ _Please provide issue details here_.
 _Please provide necessary steps for reproduction of this issue, or better the
 reduced test case (without any external dependencies)_.
 
-### Please specify which version of `generator-hottowel`, node and npm you're running
+### Please specify which version of `generator-typeangular`, node and npm you're running
 
-- [ ] generator-hottowel
+- [ ] generator-typeangular
 - [ ] Node
 - [ ] Npm
 
